@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Mont';
+    src: url(Assets/Montserrat-VariableFont_wght.ttf);
+}
+
+.container {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    display: flex;
+}   
+
+.logo {
+    width: 28vw;
+}
+
+.item {
+    font: 400 12px 'Mont', sans-serif;
+    margin: 30px 8px 0;
+    padding: 0.7px;
+
+}
+
+.item:hover {
+    font: 400 12px 'Mont', sans-serif;
+    color: #678471;
+}
+
+
+
+.nossacomida {
+    width: 60vw;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    
+}
+
+.conteudo {
+    margin: 20px;
+}
+.titulo {
+    font: 600 18px 'Mont', sans-serif;
+}
+
+.texto {
+    font: 300 15px 'Mont', sans-serif;
+}
+
+
+.panela {
+    width: 60vw;
+    margin-right: 20px;
+    margin-bottom: 30px;    
+}
+/* FIM - NOSSA EQUIPE */
+
+
+
+/* CARDAPIO */
+.comida {
+    width: 80px;
+}
+
+.comida:hover {
+    
+    width: 80px;
+}
+.pratos {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.prato {
+    border: 2px solid black;
+    width: 160px;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 5px 11px;
+}
+
+.cardapio_conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardapio {
+    margin: 0 80px;
+}
+
+.nome, .preco {
+    font: 700 12px 'Mont', sans-serif;
+}
+
+.descricao {
+    font: 400 12px 'Mont', sans-serif;
+    text-align: justify;
+}
+/* FIM - CARDAPIO */
+
+
+
+
+/* INICIO ENDEREÇO */
+#contato .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 0;
+    border: 0;
+    padding: 0;
+}
+
+.name {
+    width: 50vw;
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.name .amm {
+    font: 500 30px 'Mont', sans-serif;
+    margin: 20px 0 0;
+}
+
+.redes {
+    display: flex;
+    margin: 20px 0 0 0;
+    width: 90vw;
+}
+
+.endereco_titulo {
+    font-size: 20px;
+    margin-top: 20px;
+}
+/* FIM ENDEREÇO */
